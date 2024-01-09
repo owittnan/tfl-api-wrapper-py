@@ -3,6 +3,7 @@ from .airQuality import airQuality
 from .bikePoint import bikePoint
 from .crowding import crowding
 from .disruptions import disruptions
+from .journey import journey
 from .line import line
 from .mode import mode
 from .occupancy import occupancy
@@ -18,6 +19,7 @@ __all__ = [
     'bikePoint',
     'crowding',
     'disruptions',
+    'journey',
     'line',
     'mode',
     'occupancy',
